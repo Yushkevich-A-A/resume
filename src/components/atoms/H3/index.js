@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-function H3() {
+function H3({title}) {
   return (
-    <div className='h3'>H3</div>
+    <div className='h3'>{title}</div>
   )
 }
 

@@ -13,8 +13,7 @@ function OpenBlock(props) {
       </div>
       <Line />
       { isOpen && <div className="open-block-content">
-        {/* { props.children } */}
-        a;,dfnlkjsahfkjnsadkjfhiuasndkjnasdjhiuasbdkjnvlasduyalsjdbnlagdvlibaslkjvbliasudhv
+        { props.children }
       </div>}
     </div>
   )

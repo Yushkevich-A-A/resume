@@ -3,6 +3,7 @@
 
   --main-bg-color: #5a5a5a;
   --layer-bg-color: #2b2b2b;
+  --secondary-bg-color: #07D2FF;
 
   --common-border-style: 2px solid var(--main-text-color);
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import Layer from '../../molecules/Layer';
 import Education from '../Education';
 import HardSkills from '../HardSkills';
-import OpenBlock from '../OpenBlock';
 import './style.css';
 
 function Main() {
