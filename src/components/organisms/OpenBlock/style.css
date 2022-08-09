@@ -1,0 +1,33 @@
+/* @keyframes opening {
+  0% {
+
+  }
+  100% {
+
+  }
+}
+
+@keyframes closing {
+  0% {
+
+  }
+  100% {
+    
+  }
+} */
+
+.open-block-title {
+  text-transform: uppercase;
+  border-bottom: var(--common-border-style);
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+/* .is-open {
+
+}
+
+.is-close {
+
+} */
+

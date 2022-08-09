@@ -1,7 +1,8 @@
 :root {
-  --main-text-color: #00c2ff;
+  --main-text-color: #07D2FF;
 
-  --main-bg-color: #131313;
+  --main-bg-color: #5a5a5a;
+  --layer-bg-color: #2b2b2b;
 
-  --common-border-style: 1px solid #00c2ff;
+  --common-border-style: 2px solid var(--main-text-color);
 }

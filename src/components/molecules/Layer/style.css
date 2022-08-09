@@ -1,0 +1,10 @@
+.layer {
+  width: 100%;
+  background-color: var(--layer-bg-color);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.layer:nth-child( n+2 ) {
+  margin-top: 30px;
+}

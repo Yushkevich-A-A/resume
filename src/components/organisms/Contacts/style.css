@@ -1,0 +1,8 @@
+.contacts-content {
+  padding: 20px 40px;
+}
+
+.contacts-socials {
+  display: flex;
+  justify-content: center;
+}

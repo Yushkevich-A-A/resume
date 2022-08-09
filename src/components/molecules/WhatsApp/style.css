@@ -1,0 +1,17 @@
+.whatsapp-link {
+  display: flex;
+  align-items: center;
+}
+
+
+.whatsapp-link::before {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-image: url('./assert/WhatsApp.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 5px;
+}

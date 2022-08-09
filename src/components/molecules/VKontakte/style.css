@@ -1,0 +1,19 @@
+.vk-link {
+  display: flex;
+  align-items: center;
+}
+
+
+.vk-link::before {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 7px;
+  background-image: url('./assert/Vector.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 5px;
+}

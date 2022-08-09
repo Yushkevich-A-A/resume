@@ -1,0 +1,17 @@
+.github-link {
+  display: flex;
+  align-items: center;
+}
+
+
+.github-link::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('./assert/GitHub.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 5px;
+}

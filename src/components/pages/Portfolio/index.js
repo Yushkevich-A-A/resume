@@ -1,14 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Image from '../../atoms/Image';
+import Header from '../../organisms/Header';
 import './style.css';
-import Avatar from '../../organisms/Avatar';
 
 function Portfolio(props) {
   return (
     <div className='portfolio'>
-      <Avatar />
-      Ghbdtn
+      <Header />
     </div>
   )
 }
@@ -16,5 +13,3 @@ function Portfolio(props) {
 Portfolio.propTypes = {}
 
 export default Portfolio;
-
-// https://elergo.tech/static/media/portf/myphoto.jpeg

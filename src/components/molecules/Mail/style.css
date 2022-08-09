@@ -1,0 +1,17 @@
+.mail-link {
+  display: flex;
+  align-items: center;
+}
+
+
+.mail-link::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('./assert/mail.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 5px;
+}
