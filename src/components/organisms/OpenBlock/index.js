@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import H3 from '../../atoms/H3';
+import Line from '../../atoms/Line';
 import './style.css';
 
 function OpenBlock(props) {
@@ -6,11 +8,13 @@ function OpenBlock(props) {
 
   return (
     <div className='open-block'>
-      <h3 className='open-block-title' onClick={() => setIsOpen(!isOpen)}>
-        { props.title }
-      </h3>
+      <div className='open-title' onClick={() => setIsOpen(!isOpen)}>
+        <H3 title={ props.title }/>
+      </div>
+      <Line />
       { isOpen && <div className="open-block-content">
-        { props.children }
+        {/* { props.children } */}
+        a;,dfnlkjsahfkjnsadkjfhiuasndkjnasdjhiuasbdkjnvlasduyalsjdbnlagdvlibaslkjvbliasudhv
       </div>}
     </div>
   )

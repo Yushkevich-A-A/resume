@@ -1,3 +1,12 @@
+.open-block:nth-child( n + 2 ) {
+  margin-top: 45px;
+}
+
+
+.open-title {
+  padding: 0 30px 10px;
+}
+
 /* @keyframes opening {
   0% {
 
@@ -15,13 +24,6 @@
     
   }
 } */
-
-.open-block-title {
-  text-transform: uppercase;
-  border-bottom: var(--common-border-style);
-  margin-bottom: 10px;
-  text-align: end;
-}
 
 /* .is-open {
 
