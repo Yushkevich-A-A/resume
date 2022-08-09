@@ -1,0 +1,46 @@
+.soft-skills-list {
+  padding-left: 100px;
+}
+
+.soft-skills-item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.soft-skills-item-wrapper::before {
+  content: '';
+  display: block;
+  border-left: 2px solid var(--secondary-bg-color);
+  height: 30px;
+}
+
+.soft-skills-item-wrapper:first-child::before {
+  margin-top: 15px;
+  height: 15px;
+  align-self: flex-end;
+}
+
+.soft-skills-item-wrapper:last-child::before {
+  margin-bottom: 15px;
+  height: 15px;
+  align-self: flex-start;
+}
+
+.soft-skills-item {
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.soft-skills-item::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: var(--secondary-bg-color);
+  left: -14px;
+}
