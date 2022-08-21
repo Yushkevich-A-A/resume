@@ -1,39 +1,40 @@
-.hard-skills-list {
+.certifacats-list {
   padding-left: 30px;
 }
 
-.hard-skills-item-wrapper {
+.certifacats-item-wrapper {
   display: flex;
   align-items: center;
 }
 
-.hard-skills-item-wrapper::before {
+.certifacats-item-wrapper::before {
   content: '';
   display: block;
   border-left: 2px solid var(--secondary-bg-color);
   height: 30px;
 }
 
-.hard-skills-item-wrapper:first-child::before {
+.certifacats-item-wrapper:first-child::before {
   margin-top: 15px;
   height: 15px;
   align-self: flex-end;
 }
 
-.hard-skills-item-wrapper:last-child::before {
+.certifacats-item-wrapper:last-child::before {
   margin-bottom: 15px;
   height: 15px;
   align-self: flex-start;
 }
 
-.hard-skills-item {
+.certifacats-item-link {
   margin-left: 10px;
   position: relative;
   display: flex;
   align-items: center;
+  color: #FF8A00;
 }
 
-.hard-skills-item::before {
+.certifacats-item-link::before {
   content: '';
   position: absolute;
   display: inline-block;

@@ -3,7 +3,7 @@ import './style.css';
 
 function VKontakte() {
   return (
-    <a className='vk-link' href="https://vk.com/id151858414"></a>
+    <a className='vk-link'  target='_blank' href="https://vk.com/id151858414"></a>
   )
 }
 

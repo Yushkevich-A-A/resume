@@ -3,7 +3,7 @@ import './style.css';
 
 function Telegram() {
   return (
-    <a className='telegram-link' href="#0"></a>
+    <a className='telegram-link'  target='_blank' href="#0"></a>
   )
 }
 

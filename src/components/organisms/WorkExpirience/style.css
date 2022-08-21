@@ -1,13 +1,13 @@
-.education-content-item {
+.expirience-content-item {
   display: flex;
   align-items: flex-start;
 }
 
-.education-content-item:nth-child(n + 2) {
+.expirience-content-item:nth-child(n + 2) {
   margin-top: 20px;
 } 
 
-.education-content-date {
+.expirience-content-date {
   white-space: nowrap;
   margin-right: 30px;
   font-weight: 900;

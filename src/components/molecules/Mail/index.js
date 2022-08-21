@@ -7,4 +7,4 @@ function Mail() {
   )
 }
 
-export default Mail
+export default Mail;
