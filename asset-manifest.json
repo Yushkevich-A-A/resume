@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.6f53a083.css",
+    "main.js": "/resume/static/js/main.ea4fd80d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/resume/static/js/787.1ed0c42c.chunk.js",
+    "static/media/myphoto.jpg": "/resume/static/media/myphoto.ca5aac22c31dbfac15f1.jpg",
+    "static/media/feedback.webp": "/resume/static/media/feedback.9a57c285d0bb95ea80a3.webp",
+    "static/media/Telegram.svg": "/resume/static/media/Telegram.deb6177ce779f9a01338.svg",
+    "static/media/WhatsApp.svg": "/resume/static/media/WhatsApp.a91af1d6584aed992f36.svg",
+    "static/media/GitHub.svg": "/resume/static/media/GitHub.82a154f0bd14025309a6.svg",
+    "static/media/Vector.svg": "/resume/static/media/Vector.0d5bced5554b12f8f0e7.svg",
+    "index.html": "/resume/index.html",
+    "static/media/phone.svg": "/resume/static/media/phone.ba9113ecb71798b39e6a.svg",
+    "static/media/mail.svg": "/resume/static/media/mail.68a1276f5b477579774e.svg",
+    "main.6f53a083.css.map": "/resume/static/css/main.6f53a083.css.map",
+    "main.ea4fd80d.js.map": "/resume/static/js/main.ea4fd80d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/resume/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f53a083.css",
+    "static/js/main.ea4fd80d.js"
+  ]
+}
